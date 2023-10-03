@@ -26,11 +26,10 @@ import Btn from '../Btn/Btn';
 
 
 export const categories = [
-    "New Arrivals",
-    "Cats",
-    "Dogs",
-    "Birds",
-    "Offers",
+    "Furniture",
+    "Home Appliance",
+    "Fashion",
+    "Beauty And Personal Care", 
 ]
 export default function Navbar() {
     const {open, setOpen} = useDrawerContext();
@@ -84,9 +83,7 @@ export default function Navbar() {
         }}>
                    <Box sx={{px:1,py:.5,display:{xs:'none',md:'flex'}}} className='  bg white'>
         <Box sx={{maxWidth:'lg',alignItems:'center',justifyContent:'space-between',width:'100%'}} className='bg white  flex   auto'>
-            <Typography sx={{display:'flex',flex:1}} component='p'>
-          Payment in USD and LBP, Rate is determined upon delivery
-        </Typography>
+ 
          
             <Box
                 sx={{
@@ -103,17 +100,25 @@ export default function Navbar() {
 
 <Btn sx={{mx:1.5,minWidth:'auto',padding:0,':hover':{background:'transparent'},background:'none'}}>
 <Box sx={{width:'20px',height:'20px'}} className='center auto flex'>
-
-  <img src="https://ucarecdn.com/47c77ab9-77d8-4f0f-b6aa-c39e6ce25ba7/2removebgpreview.png" alt="" className="img" />
+<a href="https://instagram.com/bucksmart.leb" target='_blank'>
+  <img src="https://www.svgrepo.com/show/458756/insta.svg" alt="" className="img" />
+  </a>
   </Box>
 </Btn>
 </a>
-<a href='https://wa.me/96176358544' target='_blank' rel='noopener'>
+<Btn sx={{mx:1.5,minWidth:'auto',padding:0,':hover':{background:'transparent'},background:'none'}}>
+<Box sx={{width:'20px',height:'20px'}} className='center auto flex'>
+<a href="https://facebook.com/Bucksmart%20Online%20Shop" target='_blank'>
+  <img src="https://www.svgrepo.com/show/509923/facebook.svg" alt="" className="img" />
+  </a>
+  </Box>
+</Btn>
+<a href='https://wa.me/96171568667' target='_blank' rel='noopener'>
 
 <Btn sx={{mx:1.5,minWidth:'auto',padding:0,':hover':{background:'transparent'},background:'none'}}>
 <Box sx={{width:'20px',height:'20px'}} className='center auto flex'>
 
-  <img src="https://ucarecdn.com/80077082-51f1-405a-8723-82076be4f4ff/422022efe5324e93a824b05813a48f5c.png" alt="" className="img" />
+  <img src="https://www.svgrepo.com/show/510342/whatsapp.svg" alt="" className="img" />
   </Box>
 </Btn>
 </a>
@@ -148,8 +153,8 @@ export default function Navbar() {
 }}>
     <img
         className='img'
-        src={`https://ucarecdn.com/80fdb836-ff38-415a-a359-66a9f41bcb57/279234257_691043618773985_3830166968954566921_n.jpg`}
-        alt="Pets Town logo"/>
+        src={`https://ucarecdn.com/39c3c46a-4832-4b47-8afc-fed196f08727/logo1.png`}
+        alt="logo"/>
 </Box>
 </Link>
                 <Box

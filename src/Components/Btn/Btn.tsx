@@ -6,7 +6,7 @@ import React from 'react'
 
 let style1 = {
   color: 'white',
-  background: '#ff9715',
+  background: '#fdd702',
   border: 'none',
   borderRadius: '8px', 
   transition: 'background 0.3s ease, transform 0.2s ease',
@@ -23,7 +23,7 @@ let style1 = {
   outline: 'none',
 }
 let style2 = {
-  color: '#ff9715',
+  color: '#fdd702',
   background: 'transparent',
   border: 'none',
   borderRadius: '8px', 

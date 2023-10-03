@@ -15,6 +15,7 @@ import { IProduct } from '@/Types/Types'
 import { useParams } from 'next/navigation'
 import { server } from '@/Utils/Server'
 import { QuantityPicker } from '@/Components/Shared/QuantityPicker/QuantityPicker'
+import Link from "next/link";
 
 const Index = () => {
     const {productId} = useParams()
@@ -64,6 +65,9 @@ const Index = () => {
         return  ()=> setLoading(false)
 
       }, [])
+
+      
+ 
 
   return (
      
@@ -116,10 +120,12 @@ const Index = () => {
                  Add To Cart
                  <AiOutlineShoppingCart  fontSize={'medium'}/>
              </Btn>
-             <Btn   sx={{border:'none',background:'transparent', color:'green',gap:.5,mt:.5,":hover":{color:'black'},width:{xs:'100%',sm:'49%'}}}>
+             <Link href="https://wa.me/96171568667" target='_blank'>
+             <Btn sx={{border:'none',background:'transparent', color:'green',gap:.5,mt:.5,":hover":{color:'black'},width:{xs:'100%',sm:'49%'}}}>
                  WhatsApp 
                  <BsWhatsapp fontSize={'medium'}/>
              </Btn>
+             </Link>
              </Box>
             :
             <Typography component={'h1'} sx={{color:'green',fontWeight:400,pt:1,fontSize:{xs:'1.5em',sm:'2.25sem'}}}>

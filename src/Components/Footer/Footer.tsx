@@ -19,11 +19,11 @@ const Footer = () => (
               {/* <a><h1 className="site-logo"><Logo />E-Shop</h1></a> */}
               {/* https://res.cloudinary.com/dwxm8f25f/image/upload/v1675357773/logo_ghli5e.jpg */}
               {/* https://res.cloudinary.com/dwxm8f25f/image/upload/v1675713948/logo_sktnut_1_jwy2hk.png */}
-            <img className='img ' src='https://ucarecdn.com/80fdb836-ff38-415a-a359-66a9f41bcb57/279234257_691043618773985_3830166968954566921_n.jpg' alt="Pets Town Lebanon Logo" />
+            <img className='img ' src='https://ucarecdn.com/39c3c46a-4832-4b47-8afc-fed196f08727/logo1.png' alt="Pets Town Lebanon Logo" />
             </Link>
           </div>
-          <Typography component='h1' sx={{ fontSize: '.95em',color:"2b2b2b" }}  className='footer-p '>
-          At PetsTown, we are passionate about providing the best care for your pets. Our pet shop in Lebanon offers a wide selection of high-quality pet supplies for dogs, cats, birds, and more. Our friendly and knowledgeable staff is always here to help you find the perfect product for your furry friend. Shop at PetsTown today and give your pet the love and care they deserve.
+          <Typography component='h1' sx={{ fontSize: '.95em',color:"2b2b2b",textAlign:"left" }}  className='footer-p '>
+          BuckSmart is your one-stop shop for all your online shopping needs.
           </Typography>
           <SMicons/>
 
@@ -46,16 +46,16 @@ const Footer = () => (
             <li><Link href="/collection/products">All Products</Link></li> 
             <li><Link href="/cart">Cart</Link></li>
             <li><Link href="/checkout">checkout</Link></li>
-            <li><Link href="https://wa.me/+96171984678">Contact Us</Link></li>
+            <li><Link href="https://wa.me/+96171568667">Contact Us</Link></li>
           </ul>
      
           <ul  className='ul-white' style={{color:'black'}}>
             <li className='link-title'>Contact</li>
             {/* <li><Link href="mailto:sales@thecraftroom-lb.com">sales@petstown.com</Link></li> */}
             
-            {/* <li><a href="https://www.facebook.com/profile.php?id=100076163602459/" target="_blank" rel="noreferrer" >Facebook</a></li> */}
+            <li><a href="https://facebook.com/Bucksmart%20Online%20Shop" target="_blank" rel="noreferrer" >Facebook</a></li>
 
-            <li><a href="https://www.instagram.com/pets_town_lb/?igshid=MzRlODBiNWFlZA%3D%3D" target="_blank" rel="noreferrer" >@pets_town_lb</a></li>
+            <li><a href="https://www.instagram.com/bucksmart.leb/" target="_blank" rel="noreferrer" >@bucksmart.leb</a></li>
             <li><a href={`https://wa.me/${process.env.NEXT_PUBLIC_WA}`} rel="noreferrer" target='_blank' >+{process.env.NEXT_PUBLIC_WA}</a></li>
             {/* <li><a href={`http://tiktok.com/@thecraftroomlb`} rel="noreferrer" target='_blank' >TikTok</a></li> */}
           </ul>
@@ -67,7 +67,7 @@ const Footer = () => (
     <div className="site-footer__bottom " style={{color:'black',borderTop:"1px solid #0000001f"}}>
       <div className="container " style={{color:'black'}}>
         <p>Website Developed By{' '}
-          <a style={{ color: 'black' }} href={`${'https://www.onbeirut.com'}`}>OnBeirut Agency </a></p>
+          <a style={{ color: 'black' }} href={`${'https://www.hadizproductions.com'}`} target='_blank'>Hadiz Productions</a></p>
       </div>
     </div>
   </footer>

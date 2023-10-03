@@ -7,10 +7,14 @@ import {BsTiktok} from 'react-icons/bs';
 
 const sm = [
     {
-        Icon:'https://images.squarespace-cdn.com/content/v1/56e2e0c520c6472a2586add2/1615388332386-LFQRQFE53FIOLDRNADTY/2.png',
-        href:'https://www.instagram.com/pets_town_lb/?igshid=MzRlODBiNWFlZA%3D%3D'
+        Icon:'https://www.svgrepo.com/show/458756/insta.svg',
+        href:'https://www.instagram.com/bucksmart.leb/'
     },
-    {Icon:'https://logospng.org/download/whatsapp/logo-whatsapp-4096.png',href:'https://wa.me/+96171984678'},
+    {
+        Icon:'https://www.svgrepo.com/show/509923/facebook.svg',
+        href:'https://facebook.com/Bucksmart%20Online%20Shop'
+    },
+    {Icon:'https://www.svgrepo.com/show/510342/whatsapp.svg',href:'https://wa.me/+96171568667'},
     // {
     //   Icon :BsTiktok ,href: `tiktok.com/@thecraftroomlb`,
     // },

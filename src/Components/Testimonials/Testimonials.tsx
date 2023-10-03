@@ -29,19 +29,19 @@ const Testimonial = () => {
 
 const tests =[
     {
-      title: "A Pet Paradise!",
-      reviewer: "(Emma, Pet Lover)",
-      description: "Pets Town is an absolute paradise for pet owners. Their wide array of pet supplies is simply amazing. From top-notch pet food to a delightful selection of toys and accessories, they cater to every pet&apos;s needs. I&apos;m thoroughly impressed by their unwavering commitment to quality and their genuine care for their customers. Pets Town has become my go-to place for all things pet-related!",
+      title: "Amazing!",
+      reviewer: "(Emma)",
+      description: "Pure adorable!",
     },
     {
-      title: "Exceptional Service, Happy Pets!",
-      reviewer: "(Daniel, Proud Pet Parent)",
-      description: "Pets Town sets a high standard for pet shops. As a devoted pet parent, finding reliable pet supplies is crucial, and Pets Town consistently delivers. Their website is user-friendly, making it a breeze to find everything my furry friend needs. What truly sets them apart is their dedication to providing top-quality products and their keen eye for detail. Pets Town has earned my trust as the ultimate destination for pet essentials!",
+      title: "Exceptional Service!",
+      reviewer: "(Daniel)",
+      description: "Superb price 5 stars!",
     },
     {
-      title: "A Lifesaver for Pet Businesses!",
-      reviewer: "(Sophia, Pet Business Owner)",
-      description: "Managing pet supplies for our business used to be a hassle until we discovered Pets Town. We regularly source pet supplies for our clients and partners, and Pets Town&apos;s extensive product range has been a game-changer. Even with large orders, their website handles them seamlessly. The Pets Town team goes above and beyond to ensure our branding looks flawless on the pet supplies. Their professionalism and efficiency have saved us invaluable time. We wholeheartedly endorse Pets Town!",
+      title: "A Lifesaver",
+      reviewer: "(Sophia)",
+      description: "such a guaranteed online platform to buy all sorts of goods",
     },
   ];
     

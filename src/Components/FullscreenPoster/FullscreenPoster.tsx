@@ -6,11 +6,14 @@ const Index = () => {
   return (
     <Box>
         <Box sx={{display:{xs:'flex',md:'none'}}}>
-            <img src="https://www.petriotics.com/cdn/shop/files/2_375x250.png?v=1665495970" alt="" className="img" />
+            <img src="https://ucarecdn.com/3d63b5f8-7a73-42ff-adf8-160df01995bc/banner401.jpg" alt="" className="img" />
         </Box>
+
+        <a href='https://wa.me/96171568667' target='_blank'> 
         <Box sx={{display:{xs:'none',md:'flex'}}}>
-            <img src="https://www.petriotics.com/cdn/shop/files/15_OFF_3_1305x386.png?v=1664448008" alt="" className="img" />
+            <img src="https://ucarecdn.com/3d63b5f8-7a73-42ff-adf8-160df01995bc/banner401.jpg" alt="" className="img" />
         </Box>
+        </a>
     </Box>
   )
 }

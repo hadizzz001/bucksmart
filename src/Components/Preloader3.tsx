@@ -14,11 +14,15 @@ const Preloader3 = ({res}:{res:any}) => {
     const [imgs,setImgs] = useState(
         [
             {
-                img: "https://ucarecdn.com/22466a86-d184-41b1-8ac3-32c9a47d1a44/InShot_20230909_2242239471.jpg",
+                img: "https://ucarecdn.com/0a8a149f-0499-4f90-af9d-62c434ec6c27/banner.jpg",
                 text: ""
             },
             {
-                img: "https://ucarecdn.com/9c88e6d7-12be-4b3c-949d-28ac9e14c7e2/InShot_20230909_2245426331.jpg",
+                img: "https://ucarecdn.com/6ced1d98-eb50-45ad-b9e3-a836ffe49456/banner2.jpg",
+                text: ""
+            },
+            {
+                img: "https://ucarecdn.com/6a9ef9b0-48d5-4217-b439-2653f2785ae5/banner3.jpg",
                 text: ""
             }
            
@@ -39,7 +43,7 @@ const Preloader3 = ({res}:{res:any}) => {
             // width: {xs:'98%',md:'74%',lg:'80%'},
             width:'100%',
             // maxWidth: 'lg',
-            maxHeight:{xs:'100vh',md:'500px'},
+            maxHeight:{xs:'100vh',md:'600px'},
             // maxWidth:'lg',
             margin: '0 auto',
             display: {

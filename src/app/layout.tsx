@@ -1,6 +1,9 @@
 import Navbar from '@/Components/Navbar/Navbar'
 import '../Styles/Styles.css'
 import '../Styles/qty.css'
+import '@/Styles/style.css'
+import '@/Styles/bootstrap.min.css'
+import '@/Styles/main.css'
 import Footer from '@/Components/Footer/Footer'
 import Sidebar from '@/Components/Sidebar/Sidebar'
 import ScrollToTop from '@/Components/ScrollToTop/ScrollToTop'
@@ -8,10 +11,10 @@ import QuickCart from '@/Components/Shared/QuickCart/QuickCart'
 import ContextWrapper from '@/context/Contexts'
 
 export const metadata = {
-    title: 'PetsTown - Shop Pet Supplies in Lebanon',
-    description: `Discover a wide range of pet supplies at PetsTown, your local pet shop in Lebanon. We offer quality products for dogs, cats, birds, and more.`,
+    title: 'BuckSmart is your one-stop shop for all your online shopping needs.',
+    description: `We offer a wide selection of the latest products from top brands at unbeatable prices. With fast, free shipping options and a secure, easy checkout process, we make it easy to get what you need in no time. Shop with us today and see why BuckSmart is the smart choice for online shopping!`,
     icons: {
-        icon: `https://ucarecdn.com/f21fe250-e19c-4fd7-b4e7-bf1b246a3640/favicon.jpeg`
+        icon: `/favicon.jpg`
     }
 }
 
